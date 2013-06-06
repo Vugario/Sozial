@@ -1,0 +1,32 @@
+{
+    "database" : {
+        "host"     : "localhost",
+        "database" : "sozial",
+        "username" : "",
+        "password" : "",
+        "options"  : {
+            "timeout" : 3000
+        }
+    },
+    
+    "development" : {
+        "active"    : false,
+        "developers": ["127.0.0.1"]
+    },
+    
+    "s3" : {
+        "region" : "https://s3-eu-west-1.amazonaws.com",
+        "bucket" : "",
+        "path"    : "",
+        "key"     : "",
+        "secret"  : ""
+    },
+    
+    "mailer" : {
+        "name"  : "Social Notifications",
+        "email" : "hello@sozial.me",
+        "host"  : "smtp.sozial.me",
+        "user"  : "hello@sozial.me",
+        "pass"  : ""
+    }
+}
