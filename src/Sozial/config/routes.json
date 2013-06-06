@@ -1,0 +1,7 @@
+[
+	{
+		"url" : "/hello/:name",
+		"controller" : "index",
+		"action" : "index"
+	}
+]
