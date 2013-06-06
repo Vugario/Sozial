@@ -9,7 +9,9 @@ class Index extends Abstrakt {
 	
 	public function index()
 	{
-		return array( "results" => array() );
+		$items = iterator_to_array( $this->db->post->find()->limit( 30 ) );
+
+		return array( "results" => $items );
 	}
 
 }
